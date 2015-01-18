@@ -92,6 +92,9 @@ class Welcome extends CI_Controller {
 		if ($success !== true) {
 			$json['success'] = false;
 			$json['errors'] = $success;
+		} else {
+			$json['link'] = 'https://github.com/dmyers2004/CI3-Ajax-Post---Model-Validation/archive/master.zip';
+			$json['text'] = 'GitHub Download';
 		}
 
 		$this->output->json($json);

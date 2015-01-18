@@ -38,6 +38,8 @@
 						<button type="submit" id="submit_button" class="btn btn-default">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small>Bold fields are required.</small>
 					</form>
 
+					<div id="link"></div>
+
 				</div>
 			</div>
 

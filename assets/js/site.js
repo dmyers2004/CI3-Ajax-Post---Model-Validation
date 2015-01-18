@@ -11,7 +11,9 @@ $('form').on('submit', function(event) {
 		
 			if (response.success == true) {
 				/* success - now we can really submit the form */
-				$(that).unbind('submit').submit();
+				//$(that).unbind('submit').submit();
+				
+				$('#link').html('<a href="' + response.link + '">' + response.text + '</a>');
 			} else {
 				/*
 				fail - you can display these however you like
